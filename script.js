@@ -10,6 +10,16 @@ $(document).ready(function() {
                 "targets": [ 5 ],
                 "visible": false,
                 "searchable": false
+            },
+            {
+                "targets": [ 0 ],
+                "visible": false,
+                "searchable": false
+            },
+            {
+                "targets": [ 2 ],
+                "visible": false,
+                "searchable": false
             }
         ]
     } );
