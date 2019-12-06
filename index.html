@@ -1,49 +1,90 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>My first interactive table</title>
+  <title>Interactive table sample</title>
+  <meta charset="utf-8"/>
   <link rel="stylesheet" type="text/css" href="lib/DataTables/datatables.min.css"/>
   <link rel="stylesheet" href="main.css" />
 </head>
 <body>
-  <h2>Look at this cool table</h2>
+  <h2>sample table</h2>
 
-  <table id="my-table">
-    <thead>
-      <tr>
-        <th class="NAME-cell">NAME</th>
-        <th class="VALUE-cell">VALUE</th>
-        <th class="COLOR-cell">COLOR</th>
-        <th class="DATE-cell">DATE</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr class="firstRow">
-        <td class="NAME-cell">Alan</td>
-        <td class="VALUE-cell">12</td>
-        <td class="COLOR-cell">blue</td>
-        <td class="DATE-cell">Sep. 25, 2009</td>
-      </tr>
-      <tr>
-        <td class="NAME-cell">Shan</td>
-        <td class="VALUE-cell">13</td>
-        <td class="COLOR-cell">green\tblue</td>
-        <td class="DATE-cell">Sep. 27, 2009</td>
-      </tr>
-      <tr>
-        <td class="NAME-cell">John</td>
-        <td class="VALUE-cell">45</td>
-        <td class="COLOR-cell">orange</td>
-        <td class="DATE-cell">Sep. 29, 2009</td>
-      </tr>
-      <tr class="lastRow">
-        <td class="NAME-cell">Minna</td>
-        <td class="VALUE-cell">27</td>
-        <td class="COLOR-cell">teal</td>
-        <td class="DATE-cell">Sep. 30, 2009</td>
-      </tr>
-    </tbody>
-  </table>
+<table id="sample_table">
+  <thead>
+    <tr>
+      <th class="ID-cell">ID</th>
+      <th class="UnitNumber-cell">UnitNumber</th>
+      <th class="AliasFirstL-cell">AliasFirstL</th>
+      <th class="Password-cell">Password</th>
+      <th class="FullName-cell">FullName</th>
+      <th class="BirthMMDD-cell">BirthMMDD</th>
+      <th class="Phone-cell">Phone</th>
+      <th class="EmailPrimary-cell">EmailPrimary</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="firstRow">
+      <td class="ID-cell">1</td>
+      <td class="UnitNumber-cell">0101</td>
+      <td class="AliasFirstL-cell">AbeA</td>
+      <td class="Password-cell">Apass</td>
+      <td class="FullName-cell">Abe Adams</td>
+      <td class="BirthMMDD-cell">12/4</td>
+      <td class="Phone-cell">404-123-4567</td>
+      <td class="EmailPrimary-cell">abe@sample.com</td>
+    </tr>
+    <tr>
+      <td class="ID-cell">2</td>
+      <td class="UnitNumber-cell">0102</td>
+      <td class="AliasFirstL-cell">BetteB</td>
+      <td class="Password-cell">Bpass</td>
+      <td class="FullName-cell">Bette Baxter</td>
+      <td class="BirthMMDD-cell">5/7</td>
+      <td class="Phone-cell">678-123-4567</td>
+      <td class="EmailPrimary-cell">bette@sample.com</td>
+    </tr>
+    <tr>
+      <td class="ID-cell">3</td>
+      <td class="UnitNumber-cell">0102</td>
+      <td class="AliasFirstL-cell">CarlC</td>
+      <td class="Password-cell">Cpass</td>
+      <td class="FullName-cell">Carl Carlson</td>
+      <td class="BirthMMDD-cell">11/12</td>
+      <td class="Phone-cell">478-123-4567</td>
+      <td class="EmailPrimary-cell">carl@sample.com</td>
+    </tr>
+    <tr>
+      <td class="ID-cell">4</td>
+      <td class="UnitNumber-cell">0103</td>
+      <td class="AliasFirstL-cell">DaveD</td>
+      <td class="Password-cell">Dpass</td>
+      <td class="FullName-cell">Dave Dawson</td>
+      <td class="BirthMMDD-cell">5/28</td>
+      <td class="Phone-cell">212-123-4567</td>
+      <td class="EmailPrimary-cell">dave@sample.com</td>
+    </tr>
+    <tr>
+      <td class="ID-cell">5</td>
+      <td class="UnitNumber-cell">0103B</td>
+      <td class="AliasFirstL-cell">EarlE</td>
+      <td class="Password-cell">Epass</td>
+      <td class="FullName-cell">Earl Eatzy</td>
+      <td class="BirthMMDD-cell">7/27</td>
+      <td class="Phone-cell">303-123-4567</td>
+      <td class="EmailPrimary-cell">earl@sample.com</td>
+    </tr>
+    <tr class="lastRow">
+      <td class="ID-cell">6</td>
+      <td class="UnitNumber-cell">0303</td>
+      <td class="AliasFirstL-cell">DaveZ</td>
+      <td class="Password-cell">Zpass</td>
+      <td class="FullName-cell">Dave Zen</td>
+      <td class="BirthMMDD-cell">5/13</td>
+      <td class="Phone-cell">603-123-4567</td>
+      <td class="EmailPrimary-cell">daveZ@sample.com</td>
+    </tr>
+  </tbody>
+</table>
 
   <script src="lib/jquery.min.js"></script>
   <script type="text/javascript" src="lib/DataTables/datatables.min.js"></script>
